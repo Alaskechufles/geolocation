@@ -1,5 +1,6 @@
 
 import './App.css'
+import IPLocation from './components/IPLocation'
 import LocationComponent from './components/LocationComponent'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
      <LocationComponent/>
+     <IPLocation/>
     </>
   )
 }

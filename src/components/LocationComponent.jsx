@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { /* useEffect, */ useState } from 'react'
 
 export default function LocationComponent() {
     const [location,setLocation] = useState({lat:13.9898,lon:23.98896})
